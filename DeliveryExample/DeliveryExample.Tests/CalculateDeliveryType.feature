@@ -5,7 +5,7 @@
   Given that the minimum number of books to get free delivery is five, then we
     expect the following:
 
-    CustomerType  Cart Contents         Delivery
+    CustomerType  Cart Contents         DeliveryType
     VIP           5 books               Free + Standard
     VIP           4 books               Standard
     VIP           5 books + 1 non-book  Standard

@@ -1,9 +1,12 @@
-"A complex system that works is invariably found to have evolved from a simple system that worked.  A complex system designed from scratch never works and cannot be patched up to make it work.  You have to start over with a working simple system" - John Gall
+"A complex system that works is invariably found to have evolved from a simple system that worked.  
+A complex system designed from scratch never works and cannot be patched up to make it work.  
+You have to start over with a working simple system" - John Gall
 
 Acceptance Test Driven Development
 Behaviour Driven Development
 Specification by Example
 Executable Specifications
+Living Documentation
 
 User Story -> Feature -> Scenario -> Step definition
 
@@ -12,11 +15,14 @@ So that
 I want
 
 Cucumber tests (Gherkin syntax)
-Given When Then (And But)
+Given - put the system in a known state
+When - describe the key action (trigger)
+Then - observe the outcome(s)
 
 Knowledge sharing 
 Three Amigos (Domain Expert/Product Owner, Tester and Dev)
-Living Documentation
+
+"Building the right software and building the software right" - Dan North (BDD)
 
 Writing tests before coding leads to testable (verifiable) code.
 
@@ -37,4 +43,8 @@ pend on slight variations and inconsistencies."
 
 "A good specification, with examples, is effectively an acceptance test for
 the described functionality."
+
+"Collaboration on requirements builds trust between stakeholders and delivery team members"
+
+
 
