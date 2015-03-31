@@ -32,10 +32,10 @@ namespace DeliveryExample.Tests
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Calculate Delivery Type", @" Free delivery is offered to VIP customers once they purchase a certain number
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Calculate Delivery Type", @"Free delivery is offered to VIP customers once they purchase a certain number
   of books. Free delivery is not offered to regular customers or VIP customers
   buying anything else than books.
-Given that the minimum number of books to get free delivery is fjve, then we
+Given that the minimum number of books to get free delivery is five, then we
   expect the following:
 
   CustomerType  Cart Contents         Delivery

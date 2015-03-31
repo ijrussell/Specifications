@@ -1,0 +1,40 @@
+"A complex system that works is invariably found to have evolved from a simple system that worked.  A complex system designed from scratch never works and cannot be patched up to make it work.  You have to start over with a working simple system" - John Gall
+
+Acceptance Test Driven Development
+Behaviour Driven Development
+Specification by Example
+Executable Specifications
+
+User Story -> Feature -> Scenario -> Step definition
+
+As a
+So that
+I want
+
+Cucumber tests (Gherkin syntax)
+Given When Then (And But)
+
+Knowledge sharing 
+Three Amigos (Domain Expert/Product Owner, Tester and Dev)
+Living Documentation
+
+Writing tests before coding leads to testable (verifiable) code.
+
+Quotes from Specification by Example by Gojko Adzic.
+
+"Specifications should be about business functionality, not software design"
+It allows developers to find the best possible solution.
+It allows developers to improve the design in the future.
+
+"Complex specifications are hard to understand, so most people won’t be able to
+identify functional gaps and inconsistencies in such specifications."
+
+"Specification by Example relies heavily on collaboration between business
+users and delivery team members."
+
+"Using real data is important on data-driven projects, when a great deal can de-
+pend on slight variations and inconsistencies."
+
+"A good specification, with examples, is effectively an acceptance test for
+the described functionality."
+
